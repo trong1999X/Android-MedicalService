@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">YourDoctor</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="noi_dung_goi_kham">Gói khám sức khỏe cơ bản : cung cấp những hạng mục khám và xét nghiệm cơ bản nhất giúp kiểm tra được tình trạng sức khỏe một cách toàn diện, trong đó bao gồm một số hạng mục quan trọng như xét nghiệm máu, xét nghiệm chức năng gan, thận, tổng phân tích nước tiểu, khám nội tổng quát, siêu âm bụng, ... </string>
+
+</resources>

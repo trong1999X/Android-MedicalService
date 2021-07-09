@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.yourdoctor">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Design.Light.NoActionBar">
+        <activity android:name=".ket_qua"></activity>
+        <activity android:name=".danhmuc1" />
+        <activity android:name=".danhmuc" />
+        <activity android:name=".phuongthuc_thanhtoan" />
+        <activity android:name=".cart" />
+        <activity android:name=".chitiet_goikham3" />
+        <activity android:name=".chitiet_goikham2" />
+        <activity android:name=".chitiet_goikham1" />
+        <activity android:name=".forgotpass" />
+        <activity android:name=".signup" />
+        <activity android:name=".login">
+
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

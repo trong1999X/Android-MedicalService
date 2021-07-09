@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chitiet_goikham3"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/background_bacsi" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Gói khám sức khỏe cơ bản"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="160dp"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/btn_cate"
+            android:gravity="center"
+            android:text="@string/noi_dung_goi_kham"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/background_bacsi2">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:paddingTop="10dp"
+                android:src="@drawable/ic_baseline_account_circle_24" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:paddingTop="45dp"
+                android:src="@drawable/calendar" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:fontFamily="sans-serif-condensed"
+                android:paddingTop="7dp"
+                android:text="Nam &amp; Nữ"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:fontFamily="sans-serif-condensed"
+                android:paddingTop="43dp"
+                android:text="Mọi lứa tuổi"
+                android:textSize="20dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:layout_marginLeft="200dp"
+                android:background="@drawable/blue_button"
+                android:gravity="center_vertical"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:paddingTop="7dp"
+                android:text="1.950.000 VND">
+            </Button>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:layout_marginLeft="200dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/orange_button"
+                android:text="Đặt lịch">
+            </Button>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            >
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="75dp"
+                android:textColor="@color/white"
+                android:src="@drawable/bv_hoahao"
+                android:background="@drawable/circle">
+            </ImageButton>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bv_hoanmy"
+                android:layout_marginLeft="250dp"
+                android:textColor="@color/white"
+                android:background="@drawable/circle">
+            </ImageButton>
+
+        </RelativeLayout>
+        <Button
+            android:layout_marginTop="30dp"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:text="Chọn địa điểm"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:background="@drawable/blue_button">
+        </Button>
+    </LinearLayout>
+</LinearLayout>

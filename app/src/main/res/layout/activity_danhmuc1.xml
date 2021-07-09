@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp">
+
+    <ImageView
+        android:id="@+id/imv_goikham"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/about9">
+    </ImageView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toRightOf="@+id/imv_goikham">
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:text="Gói khám sức khỏe cơ bản"
+            android:gravity="center"
+            android:textSize="16dp"
+            android:layout_marginLeft="40dp"
+            android:textColor="@color/white"
+            android:background="@drawable/blue_button" />
+
+        <TextView
+            android:id="@+id/tv_desc"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/tv_name"
+            android:text="Gói khám sức khỏe cơ bản : cung cấp những hạng mục khám và Xét Nghiệm Cơ Bản ..."
+            android:textColor="@color/white"
+            android:textSize="13dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="90dp"
+            android:src="@drawable/ic_baseline_account_circle_24" />
+        <TextView
+            android:id="@+id/tv_sex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="58dp"
+            android:layout_marginTop="90dp"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:text="Nam &amp; Nữ">
+        </TextView>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="130dp"
+            android:src="@drawable/calendar" />
+        <TextView
+            android:id="@+id/tv_age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="58dp"
+            android:layout_marginTop="130dp"
+            android:textSize="15dp"
+            android:textColor="@color/white"
+            android:text="Mọi lứa tuổi">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_cost"
+            android:layout_width="110dp"
+            android:layout_height="35dp"
+            android:gravity="center"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/blue_button"
+            android:text="1.950.000 VND"
+            android:textColor="@color/white" />
+        <TextView
+            android:id="@+id/tv_order"
+            android:layout_width="110dp"
+            android:layout_height="35dp"
+            android:gravity="center"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="120dp"
+            android:background="@drawable/orange_button"
+            android:text="Đặt lịch ngay"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+</RelativeLayout>
